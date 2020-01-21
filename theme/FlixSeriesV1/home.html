@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>NightFlixSeries</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" id="bootstrap-grid" href="assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" id="carousel-style" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" id="owl-theme-style" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.5.6/plyr.css">
+    <link rel="stylesheet" id="mainStyle" href="assets/css/style.css">
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/TimeCircles.js"></script>
+    <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
+    <script src="assets/js/main.js"></script>
+  </head>
+  <body>
+    <div class="boxSearch">
+      <form class="" action="index.html" method="post">
+        <input type="text" name="" value="" placeholder="Search your interesting">
+      </form>
+      <div class="material-icons close">close</div>
+    </div>
+    <div class="mobileMenu">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Movies</a>
+        </li>
+        <li>
+          <a href="#">Series</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      <div class="material-icons close">close</div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="primaryLayer">
+            <div class="row">
+              <div class="col-xl-2 col-md-2 PMenu" style="padding-right: 0;">
+                <div class="primaryMenu">
+                  <div class="cover"></div>
+                  <div class="logo">
+                    <a href="#">
+                      <img src="assets/images/logo.png" alt="NightFlixSeries" width="50">
+                      <span>FlixSeries</span>
+                    </a>
+                  </div>
+                  <div class="menu">
+                    <div class="cats">Media</div>
+                    <ul>
+                      <li>
+                        <a href="#">Movies</a>
+                      </li>
+                      <li>
+                        <a href="#">TV Shows</a>
+                      </li>
+                      <li>
+                        <a href="#">Music</a>
+                      </li>
+                      <li>
+                        <a href="#">Audiobooks</a>
+                      </li>
+                      <li>
+                        <a href="#">Games</a>
+                      </li>
+                      <li>
+                        <a href="#">Apps</a>
+                      </li>
+                    </ul>
+                    <div class="cats">Account</div>
+                    <ul>
+                      <li>
+                        <a href="#">Library</a>
+                      </li>
+                      <li>
+                        <a href="#">Wishlist</a>
+                      </li>
+                      <li>
+                        <a href="#">Settings</a>
+                      </li>
+                      <li>
+                        <a href="#">Sing Out</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="social">
+                    <a href=""><img src="assets/images/youtube.png" alt="youtube"></a>
+                    <a href=""><img src="assets/images/instagram.png" alt="instagram"></a>
+                    <a href=""><img src="assets/images/twitter.png" alt="twitter"></a>
+                    <a href=""><img src="assets/images/telegram.png" alt="telegram"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-10 col-md-10 PContent" style="padding-left: 0;">
+                <div class="primaryContent">
+                  <header class="header">
+                    <div class="logoMobile">
+                      <a href="#">
+                        <img src="assets/images/logo.png" alt="" width="37" height="37">
+                      </a>
+                    </div>
+                    <div class="primarySearch">
+                      <form class="" action="index.html" method="post">
+                        <input type="text" name="" value="" placeholder="Search your interesting">
+                        <button type="submit" name="button"><span class="material-icons">search</span></button>
+                      </form>
+                    </div>
+                    <div class="openSearch">
+                      <span class="material-icons">search</span>
+                    </div>
+                    <div class="profile">
+                      <a href="profile.html"><span class="material-icons">person</span></a>
+                    </div>
+                    <div class="notification">
+                      <a href="notification.html" class="click"><span class="material-icons">notifications</span></a>
+                      <div class="content">
+                        <div class="title">
+                          Notifications: <a href="">See All</a>
+                        </div>
+                        <ul>
+                          <li>
+                            <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                          </li>
+                          <li>
+                            <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                          </li>
+                          <li>
+                            <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                          </li>
+                          <li>
+                            <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                          </li>
+                          <li>
+                            <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="openMenu">
+                      <span class="material-icons">menu</span>
+                    </div>
+                  </header>
+                  <div class="bestPosts">
+                    <div class="row">
+                      <div class="col-md-4 col-sm-6">
+                        <div class="item">
+                          <div class="image">
+                            <img src="assets/images/vikings.jpg" alt="" width="330">
+                          </div>
+                          <div class="title">
+                            <a href=""><h2>Vikings</h2></a>
+                          </div>
+                          <div class="quality">4K HDR</div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 col-sm-6">
+                        <div class="item">
+                          <div class="image">
+                            <img src="assets/images/dark-fate.jpg" alt="" width="330">
+                          </div>
+                          <div class="title">
+                            <a href=""><h2>Terminator: Dark Fate</h2></a>
+                          </div>
+                          <div class="quality">4K HDR</div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 col-sm-6">
+                        <div class="item">
+                          <div class="image">
+                            <img src="assets/images/arrow.jpg" alt="" width="330">
+                          </div>
+                          <div class="title">
+                            <a href=""><h2>Arrow</h2></a>
+                          </div>
+                          <div class="quality">4K HDR</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-9">
+                      <div class="block">
+                        <div class="title">
+                          <h3>Trending</h3>
+                          <a href="#">See All</a>
+                        </div>
+                        <div class="content">
+                          <div class="row">
+                            <div class="col-lg-2 col-md-2 col-sm-3">
+                              <div class="item">
+                                <a href="#" data-id="1" class="active">
+                                  <img src="assets/images/1917.jpg" alt="" width="112" height="165">
+                                  <h3>1917</h3>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-3">
+                              <div class="item">
+                                <a href="#" data-id="2">
+                                  <img src="assets/images/Cats.jpg" alt="" width="112" height="165">
+                                  <h3>Cats</h3>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-3">
+                              <div class="item">
+                                <a href="#" data-id="3">
+                                  <img src="assets/images/Joker.jpg" alt="" width="112" height="165">
+                                  <h3>Joker</h3>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-3">
+                              <div class="item">
+                                <a href="#" data-id="4">
+                                  <img src="assets/images/Jumanji The Next Level.jpg" alt="" width="112" height="165">
+                                  <h3>Jumanji: The Next Level</h3>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-3">
+                              <div class="item">
+                                <a href="#" data-id="5">
+                                  <img src="assets/images/Knives Out.jpg" alt="" width="112" height="165">
+                                  <h3>Knives Out</h3>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-3">
+                              <div class="item">
+                                <a href="#" data-id="6">
+                                  <img src="assets/images/Little Women.jpg" alt="" width="112" height="165">
+                                  <h3>Little Women</h3>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="blockInfo fadeIn" id="postShow-1" style="display:block">
+                            <div class="row">
+                              <div class="col-xl-6">
+                                <div class="image">
+                                  <img src="assets/images/jumanji.jpg" alt="" width="375" height="250">
+                                </div>
+                              </div>
+                              <div class="col-xl-6">
+                                <div class="tit">
+                                  <a href=""><h3>Jumanji: The Next Level</h3></a>
+                                  <div class="rating">
+                                    <span>7.1</span><i>/10</i>
+                                  </div>
+                                  <div class="bottom">
+                                    <div><span>PG-13</span></div>
+                                    <div><span>2h 3min</span></div>
+                                    <div><a href="">Action</a>, <a href="">Adventure</a>, <a href="">Comedy</a></div>
+                                  </div>
+                                </div>
+                                <div class="summary">
+                                  <p>In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world's most dangerous game.</p>
+                                </div>
+                                <a href="#" class="more">Watch & Download</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="blockInfo fadeIn" id="postShow-2">
+                            <div class="row">
+                              <div class="col-xl-6">
+                                <div class="image">
+                                  <img src="assets/images/jumanji.jpg" alt="" width="375" height="250">
+                                </div>
+                              </div>
+                              <div class="col-xl-6">
+                                <div class="tit">
+                                  <a href=""><h3>Jumanji: The Next Level</h3></a>
+                                  <div class="rating">
+                                    <span>7.1</span><i>/10</i>
+                                  </div>
+                                  <div class="bottom">
+                                    <div><span>PG-13</span></div>
+                                    <div><span>2h 3min</span></div>
+                                    <div><a href="">Action</a>, <a href="">Adventure</a>, <a href="">Comedy</a></div>
+                                  </div>
+                                </div>
+                                <div class="summary">
+                                  <p>In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world's most dangerous game.</p>
+                                </div>
+                                <a href="#" class="more">Watch & Download</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="blockInfo fadeIn" id="postShow-3">
+                            <div class="row">
+                              <div class="col-xl-6">
+                                <div class="image">
+                                  <img src="assets/images/jumanji.jpg" alt="" width="375" height="250">
+                                </div>
+                              </div>
+                              <div class="col-xl-6">
+                                <div class="tit">
+                                  <a href=""><h3>Jumanji: The Next Level</h3></a>
+                                  <div class="rating">
+                                    <span>7.1</span><i>/10</i>
+                                  </div>
+                                  <div class="bottom">
+                                    <div><span>PG-13</span></div>
+                                    <div><span>2h 3min</span></div>
+                                    <div><a href="">Action</a>, <a href="">Adventure</a>, <a href="">Comedy</a></div>
+                                  </div>
+                                </div>
+                                <div class="summary">
+                                  <p>In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world's most dangerous game.</p>
+                                </div>
+                                <a href="#" class="more">Watch & Download</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="blockInfo fadeIn" id="postShow-4">
+                            <div class="row">
+                              <div class="col-xl-6">
+                                <div class="image">
+                                  <img src="assets/images/jumanji.jpg" alt="" width="375" height="250">
+                                </div>
+                              </div>
+                              <div class="col-xl-6">
+                                <div class="tit">
+                                  <a href=""><h3>Jumanji: The Next Level</h3></a>
+                                  <div class="rating">
+                                    <span>7.1</span><i>/10</i>
+                                  </div>
+                                  <div class="bottom">
+                                    <div><span>PG-13</span></div>
+                                    <div><span>2h 3min</span></div>
+                                    <div><a href="">Action</a>, <a href="">Adventure</a>, <a href="">Comedy</a></div>
+                                  </div>
+                                </div>
+                                <div class="summary">
+                                  <p>In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world's most dangerous game.</p>
+                                </div>
+                                <a href="#" class="more">Watch & Download</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="blockInfo fadeIn" id="postShow-5">
+                            <div class="row">
+                              <div class="col-xl-6">
+                                <div class="image">
+                                  <img src="assets/images/jumanji.jpg" alt="" width="375" height="250">
+                                </div>
+                              </div>
+                              <div class="col-xl-6">
+                                <div class="tit">
+                                  <a href=""><h3>Jumanji: The Next Level</h3></a>
+                                  <div class="rating">
+                                    <span>7.1</span><i>/10</i>
+                                  </div>
+                                  <div class="bottom">
+                                    <div><span>PG-13</span></div>
+                                    <div><span>2h 3min</span></div>
+                                    <div><a href="">Action</a>, <a href="">Adventure</a>, <a href="">Comedy</a></div>
+                                  </div>
+                                </div>
+                                <div class="summary">
+                                  <p>In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world's most dangerous game.</p>
+                                </div>
+                                <a href="#" class="more">Watch & Download</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="blockInfo fadeIn" id="postShow-6">
+                            <div class="row">
+                              <div class="col-xl-6">
+                                <div class="image">
+                                  <img src="assets/images/jumanji.jpg" alt="" width="375" height="250">
+                                </div>
+                              </div>
+                              <div class="col-xl-6">
+                                <div class="tit">
+                                  <a href=""><h3>Jumanji: The Next Level</h3></a>
+                                  <div class="rating">
+                                    <span>7.1</span><i>/10</i>
+                                  </div>
+                                  <div class="bottom">
+                                    <div><span>PG-13</span></div>
+                                    <div><span>2h 3min</span></div>
+                                    <div><a href="">Action</a>, <a href="">Adventure</a>, <a href="">Comedy</a></div>
+                                  </div>
+                                </div>
+                                <div class="summary">
+                                  <p>In Jumanji: The Next Level, the gang is back but the game has changed. As they return to rescue one of their own, the players will have to brave parts unknown from arid deserts to snowy mountains, to escape the world's most dangerous game.</p>
+                                </div>
+                                <a href="#" class="more">Watch & Download</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sliderBlock">
+                        <div class="title">
+                          <h3>Today TV Show</h3>
+                          <a href="#">See All</a>
+                        </div>
+                        <div class="content">
+                          <div class="row">
+                            <div class="owl-carousel postSlider">
+                              <div class="item">
+                                <a href="#">
+                                  <img src="assets/images/1917.jpg" alt="" width="112" height="165">
+                                  <h3>1917</h3>
+                                  <span class="season">S05E22</span>
+                                </a>
+                              </div>
+                              <div class="item">
+                                <a href="#">
+                                  <img src="assets/images/Cats.jpg" alt="" width="112" height="165">
+                                  <h3>Cats</h3>
+                                  <span class="season">S05E22</span>
+                                </a>
+                              </div>
+                              <div class="item">
+                                <a href="#">
+                                  <img src="assets/images/termi.jpg" alt="" width="112" height="165">
+                                  <h3>Terminator: Dark Fate</h3>
+                                  <span class="season">S05E22</span>
+                                </a>
+                              </div>
+                              <div class="item">
+                                <a href="#">
+                                  <img src="assets/images/Joker.jpg" alt="" width="112" height="165">
+                                  <h3>Joker</h3>
+                                  <span class="season">S05E22</span>
+                                </a>
+                              </div>
+                              <div class="item">
+                                <a href="#">
+                                  <img src="assets/images/Jumanji The Next Level.jpg" alt="" width="112" height="165">
+                                  <h3>Jumanji: The Next Level</h3>
+                                  <span class="season">S05E22</span>
+                                </a>
+                              </div>
+                              <div class="item">
+                                <a href="#">
+                                  <img src="assets/images/Knives Out.jpg" alt="" width="112" height="165">
+                                  <h3>Knives Out</h3>
+                                  <span class="season">S05E22</span>
+                                </a>
+                              </div>
+                              <div class="item">
+                                <a href="#">
+                                  <img src="assets/images/Little Women.jpg" alt="" width="112" height="165">
+                                  <h3>Little Women</h3>
+                                  <span class="season">S05E22</span>
+                                </a>
+                              </div>
+                              <div class="item">
+                                <a href="#">
+                                  <img src="assets/images/Once Upon a Time... in Hollywood.jpg" alt="" width="112" height="165">
+                                  <h3>Once Upon a Time... in Hollywood</h3>
+                                  <span class="season">S05E22</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="sidebar">
+                        <div class="newPost">
+                          <div class="title">
+                            <h3>Wath's New</h3>
+                          </div>
+                          <div class="image">
+                            <img src="assets/images/under.jpg" alt="">
+                            <a href="">Underground</a>
+                            <i class="material-icons">play_circle_filled</i>
+                          </div>
+                          <p class="summary">Meet a new kind of action hero. Six untraceable agents, totally off the grid. They've buried their pasts so they can change the future.</p>
+                        </div>
+                        <div class="bestWeek">
+                          <div class="title">
+                            <h3>Bestselling This Week</h3>
+                          </div>
+                          <ul>
+                            <li>1. <a href="">A Star Born</a><i>597</i></li>
+                            <li>2. <a href="">The Spy Who Deumped Me</a><i>585</i></li>
+                            <li>3. <a href="">Venom</a><i>550</i></li>
+                            <li>4. <a href="">Hunter Killer</a><i>513</i></li>
+                            <li>5. <a href="">Once Upon a Deadpool</a><i>476</i></li>
+                            <li>6. <a href="">Captain Marvel</a><i>448</i></li>
+                            <li>7. <a href="">Toy Story 4</a><i>431</i></li>
+                            <li>8. <a href="">Star Wars</a><i>409</i></li>
+                            <li>9. <a href="">Glass</a><i>387</i></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
